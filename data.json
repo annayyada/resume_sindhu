@@ -1,0 +1,50 @@
+{
+  "left":{
+    "photo":"sindhuimg.png",
+    "name":"K.sindhu",
+    "email":"sindhubangaru123@gmail.com",
+    "phone":"9845679876"
+  },
+  "education":[
+    {
+      "course":"B.tech(Computer science and engineering)",
+      "college":[
+        "Ravindra college of enginneering for women",
+        "2015-2019",
+        "70%"
+      ]
+    },
+    {
+          "course":"Intermediate(MPC)",
+          "college":[
+            "Sri narayana junior college",
+            "2013-2015",
+            "70%"
+          ]
+
+    },
+    {
+      "course":"SSC",
+           "college":[
+             "Sri Sathya sai em school",
+             "2013",
+             "70%"
+    ]
+  }
+
+],
+"skills":[
+{
+  "name":"operating systems",
+  "value":"windows,linux"
+},
+{
+  "name":"programming languages",
+  "value":"c,c++,java"
+},
+{
+  "name":"Web development",
+  "value":"HTML,Python"
+    }
+  ]
+}

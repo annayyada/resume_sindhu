@@ -1,22 +1,32 @@
+table,tr,td{
+    border: 2px solid blue;
+    border-collapse: collapse;
+  }
+
+
+
 .main{
-  width: 120%;
+  width :120%;
   background-color: #999;
   /* flex box syntax */
   display: flex;
+  /* flex-wrap: wrap; */
   flex-direction: row;
 }
 .left{
-  width: 35%;
-  background-color: #c45e45;
+
+  background-color: #663399;
   border: 5px  solid #000;
   margin: 5px;
+  flex: 1;
 /* background-image: url(); */
 }
 .right{
-  width: 70%;
-  background-color: violet;
+
+  background-color: #d2691e;
   border: 5px solid #fff;
   margin: 5px;
+  flex: 2;
 }
 #name{
   color: green;
@@ -24,6 +34,8 @@
 .left img{
   border-radius: 40px;
   border: 5px solid #000;
+}
+
 }
 /* media queries(1024,1280,768,480)
 1280-1024 : desktop
@@ -35,7 +47,7 @@
     .main{
       display :flex;
       background-color: blue;
-      width: 100%;
+      width :100%;
     }
     .left{
       width: 25%;
@@ -43,11 +55,40 @@
     }
     .right{
       width:75%;
-      background-color: violet;
+      background-color: orange;
     }
     }
     @media only screen and (min-width:768px) and (max-width:1024px){
-      }
+      }  .main{
+          display :flex;
+          flex_wrap :wrap;
+          background-color: violet;
+          width :100%;
+        }
+        .left{
+          width: 25%;
+          background-color: pink;
+        }
+        .right{
+          width:75%;
+          background-color: orange;
+        }
+        }
+
 
       @media only screen and (min-width:480px) and (max-width:768px){
-        }
+        }  .main{
+            display :flex;
+            flex_wrap :wrap;
+            background-color: brown;
+            width :100%;
+          }
+          .left{
+            width: 25%;
+            background-color: skyblue;
+          }
+          .right{
+            width:75%;
+            background-color: orange;
+          }
+          }
